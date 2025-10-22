@@ -1,5 +1,5 @@
 [project]
-name = "popper v2"
+name = "popper-v2"
 version = "0.1.0"
 description = "Rewrite of Popper with free-threading in Python"
 authors = [
@@ -9,6 +9,7 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "networkx (>=3.5,<4.0)"
 ]
 
 
